@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">  
+ <link rel="stylesheet" href="style.css" type="text/css">
+  <div id="button-container"></div>
+ <title>About me(Matthew Liao)</title> 
+ </head> 
+ <body>
+    <div class="container">
+        <div class="card">
+        <h1>About Matthew Liao</h1>
+        <h2>Basic inforemation</h2>
+        <p>Hi guys(whatever you are my friends or strangers),well,this is my first website.My name is Matthew Liao,I am 12 years old.</p>
+        <h2>My personality</h2>
+        <p>My MBTI is INTJ.I am an intrinsic-thinking person.I sometimes do not enjoy talking to stangers,and I am passive when making new friends.
+            However,I do like talking to familier people,such as my family,classmates and my friends.</p>
+        <h2>My life experience</h2>
+        <p>I was born in Boston.Then I studied in China.I achieved good grades.Now(2026) I am preparing for school here in the US.In the summer of 2025, I joined volunteer work in Africa.I have visited four continents:Africa,Asia,Europe and North America.
+            And 10 contries:Japan,China,the US,Kenya,Zimbabwe,Italy,Frence,Iceland,Monaco,the UK.I learned a lot of cultures and achieved much.</p>
+        <h2>My hobbies</h2>
+        <p>I like playing sports and working out.I like playing ping-pong,badminten,tennis,swimming.Recently I like soccer,my favourite player is Luka Modric.
+        I also like Bellingham,Kane,Neuer.I really enjoy the joyful that working out give me.</p>
+        <h2>More about me</h2>
+        <p>I am self-disciplined in my studies.I can manage my time  well.I am not afraid of difficulties,when problems come up,I will try my best to solve it or ask the instructers.</p>
+        <p>Well,it is time to the end,the website might be simple,but thank you for having a look.Bye bye.</p>
+        </div>
+    </div>
+  <script>
+    const container = document.getElementById('button-container');
+    container.innerHTML = `
+    <button id="myPicButton" type="button">
+        <img src="your-image-url.jpg" alt="Icon" style="width:20px;">
+    </button>
+    `;
+
+    document.getElementById('myPicButton').addEventListener('click', () => {
+        console.log('Button clicked!');
+    });
+  </script>
+  <button id="colorBtn">Click for Magic Color!</button>
+  <button id="lampBtn">💡 Turn Off</button>
+  <script src="java.js"></script>
+</body>
+</html>
